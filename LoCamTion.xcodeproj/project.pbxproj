@@ -13,6 +13,8 @@
 		159A298F274E6031001089BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159A298D274E6031001089BD /* Main.storyboard */; };
 		159A2991274E6032001089BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159A2990274E6032001089BD /* Assets.xcassets */; };
 		159A2994274E6032001089BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159A2992274E6032001089BD /* LaunchScreen.storyboard */; };
+		159A299C274F2815001089BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A299B274F2815001089BD /* Item.swift */; };
+		159A299E274F313D001089BD /* imgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A299D274F313D001089BD /* imgCell.swift */; };
 		5E33492898A621054DB0412D /* Pods_LoCamTion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FB60865B19653D2A690C6E /* Pods_LoCamTion.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		159A2990274E6032001089BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		159A2993274E6032001089BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		159A2995274E6032001089BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159A299B274F2815001089BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		159A299D274F313D001089BD /* imgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgCell.swift; sourceTree = "<group>"; };
 		3685EEB9D7DA4088BC16B708 /* Pods-LoCamTion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoCamTion.release.xcconfig"; path = "Target Support Files/Pods-LoCamTion/Pods-LoCamTion.release.xcconfig"; sourceTree = "<group>"; };
 		78212387E55CC43DD16EF367 /* Pods-LoCamTion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoCamTion.debug.xcconfig"; path = "Target Support Files/Pods-LoCamTion/Pods-LoCamTion.debug.xcconfig"; sourceTree = "<group>"; };
 		B5FB60865B19653D2A690C6E /* Pods_LoCamTion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoCamTion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,8 @@
 				159A2990274E6032001089BD /* Assets.xcassets */,
 				159A2992274E6032001089BD /* LaunchScreen.storyboard */,
 				159A2995274E6032001089BD /* Info.plist */,
+				159A299B274F2815001089BD /* Item.swift */,
+				159A299D274F313D001089BD /* imgCell.swift */,
 			);
 			path = LoCamTion;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159A299C274F2815001089BD /* Item.swift in Sources */,
+				159A299E274F313D001089BD /* imgCell.swift in Sources */,
 				159A298C274E6030001089BD /* ViewController.swift in Sources */,
 				159A2988274E6030001089BD /* AppDelegate.swift in Sources */,
 				159A298A274E6030001089BD /* SceneDelegate.swift in Sources */,

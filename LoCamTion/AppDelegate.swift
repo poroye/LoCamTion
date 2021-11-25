@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
             print("error init new realm, \(error)")
         }
+        print(Realm.Configuration.defaultConfiguration.fileURL)
         return true
     }
 
